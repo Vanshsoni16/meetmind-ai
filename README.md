@@ -35,4 +35,5 @@ chat interface that answers questions using **only** the stored meeting records.
 | Analytics: meetings over time, tasks by status/priority/assignee | 📊 Analytics |
 | One-click demo workspace | 🏠 Dashboard → Load demo data |
 
-## 4. Architecture
+
+
