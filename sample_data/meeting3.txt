@@ -1,0 +1,45 @@
+Project Nimbus – Final Project Review
+Date: 20 March 2025
+Attendees: Rahul Sharma, Ananya Iyer, Vikram Rao, Sneha Kulkarni, Arjun Mehta
+
+Rahul: Exam week is over, let's lock the launch. Arjun, any news on the approval?
+
+Arjun: The Dean's office has verbally approved it. The written approval letter is still pending
+but they said it should come this week. It hasn't arrived yet.
+
+Rahul: Okay, that's still a risk. Let's set the pilot launch date. Decision: we launch the
+pilot on 5 April 2025.
+
+Vikram: The webhook signature issue is fixed. I also added retry logic and idempotency keys.
+Load testing is next — I'll finish it by 26 March, medium priority.
+
+Rahul: Great. I'll finalize production keys and do the final deployment by 28 March. High
+priority, it's in progress.
+
+Ananya: UI polish is done. The onboarding screens are finalized and the payment failure screen
+is shipped. Mark that completed.
+
+Rahul: Confirmed. Decision: UPI only for the pilot, cards in phase two. That's final.
+
+Sneha: Who handles user support once we launch?
+
+Rahul: Decision: Sneha owns user support for the pilot. Sneha, write a user support FAQ by
+25 March, medium priority.
+
+Sneha: On it.
+
+Ananya: Are we adding any more features before launch?
+
+Rahul: No. Decision: feature freeze from today. Nothing new goes in until after the pilot.
+
+Vikram: What about the launch event venue? We never decided.
+
+Rahul: Still unresolved. We'll do it online for the pilot and decide the physical venue later.
+Also unresolved: what the post-launch support hours should be, and what our marketing budget is.
+
+Arjun: One more risk — Rahul is the only person who knows the production deployment. If he's
+unavailable, we're stuck.
+
+Rahul: Fair. Let's document the deployment runbook. I'll do it as part of the deployment task.
+
+Vikram: And the written college approval is still the biggest external risk.

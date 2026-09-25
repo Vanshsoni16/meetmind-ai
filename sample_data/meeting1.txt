@@ -1,0 +1,52 @@
+Project Nimbus – Kickoff & Planning
+Date: 4 March 2025
+Attendees: Rahul Sharma, Ananya Iyer, Vikram Rao, Sneha Kulkarni, Arjun Mehta
+
+Rahul: Thanks everyone for joining. This is the kickoff for Project Nimbus, our campus event
+booking app. The goal is to have a working pilot before the end of the semester. Let's lock
+down the payment provider first because that was the biggest open question.
+
+Ananya: I compared Razorpay, PayU and Instamojo. Razorpay has the cleanest React Native SDK
+and the lowest setup effort for a student project. PayU needs a lot more paperwork.
+
+Vikram: I agree. Razorpay also has a proper test mode, which matters because we don't have a
+registered company yet.
+
+Rahul: Decision then — we go with Razorpay for the payment gateway. Rahul will finalize the
+Razorpay merchant account and complete KYC by 10 March. That is high priority, it blocks
+everything else.
+
+Arjun: About the college side — I spoke to the student council. Any app that collects money
+from students needs written approval from the Dean's office. That process usually takes about
+three weeks.
+
+Rahul: That's a real risk. Arjun, can you own the approval paperwork? Please submit the
+application form by 18 March. Mark it high priority.
+
+Arjun: Sure, I'll take that.
+
+Sneha: Should we talk to actual students before building the whole thing?
+
+Rahul: Good point. Sneha, prepare a short user survey and get at least 50 responses by
+8 March. Low priority, but we need it before we finalize the booking flow.
+
+Ananya: On the design side, I'll have the onboarding screens ready by 12 March. Medium priority.
+
+Vikram: I'll set up the CI/CD pipeline and the staging environment by 15 March. Medium priority.
+We also need to decide the tech stack formally.
+
+Rahul: Right. Decision: we build the mobile client in React Native and the backend in FastAPI
+with PostgreSQL. That's settled.
+
+Ananya: Are we doing card payments as well, or just UPI?
+
+Rahul: Let's leave that open for now — we'll decide after the Razorpay account is approved.
+Sneha, also note we still haven't decided the refund policy. That's unresolved.
+
+Sneha: Noted.
+
+Vikram: One more blocker — mid-semester exams are from 14 to 22 March. Velocity will drop
+during that week. We should plan around it.
+
+Rahul: Good catch, let's keep that in mind. Also we haven't picked a venue for the pilot event.
+That's still open. Let's meet again next week. We'll do weekly standups every Wednesday at 5pm.

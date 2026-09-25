@@ -1,0 +1,52 @@
+Project Nimbus – Post-Launch Retrospective
+Date: 12 April 2025
+Attendees: Rahul Sharma, Ananya Iyer, Vikram Rao, Sneha Kulkarni, Arjun Mehta
+
+Rahul: The pilot launched on 5 April. One week in. Let's go through the numbers.
+
+Vikram: 218 unique students signed up. 47 bookings completed. Zero payment failures.
+Load testing held up fine — p95 latency was under 400ms.
+
+Sneha: Support volume was low. Only six tickets, mostly about the refund flow.
+
+Rahul: That's because we still haven't decided the refund policy. Decision — we will
+publish a written refund policy by 20 April. Sneha, can you draft it? High priority.
+
+Sneha: On it.
+
+Arjun: The Dean's office finally issued the written approval. I have the PDF.
+
+Rahul: Excellent. That closes our biggest external risk.
+
+Ananya: Design feedback has been positive. Two students asked for a "save for later"
+feature and three asked for calendar invites.
+
+Rahul: Good signal. Decision — calendar invites go into phase two. Save-for-later
+is postponed pending more demand.
+
+Vikram: Cards — are we adding them?
+
+Rahul: Not yet. Decision — we stay UPI-only through phase two. We'll revisit in Q3.
+
+Rahul: What about the launch venue we kept postponing?
+
+Ananya: We did it online. It worked fine. Let's not do physical for the pilot series.
+
+Rahul: Agreed. Decision — future launches stay online until we have a larger user base.
+
+Vikram: One risk I want on record — the deployment runbook exists but hasn't been
+tested by anyone except me and Rahul.
+
+Rahul: Fair. Vikram, please have someone else run through the deployment on a staging
+environment by 18 April. Medium priority.
+
+Vikram: Will do.
+
+Sneha: Marketing budget — we still haven't allocated one.
+
+Rahul: That's still open. Also unresolved: what our support hours should be after
+the pilot ends.
+
+Vikram: And what happens to inactive accounts after 90 days? We never decided.
+
+Rahul: Right — three open items. Let's schedule a phase-two planning meeting next week.

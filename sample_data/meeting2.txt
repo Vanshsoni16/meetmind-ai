@@ -1,0 +1,46 @@
+Project Nimbus – Payment Integration Progress Review
+Date: 11 March 2025
+Attendees: Rahul Sharma, Ananya Iyer, Vikram Rao, Arjun Mehta
+
+Rahul: Quick status check. The Razorpay merchant account is created but KYC is still pending.
+They asked for an additional address proof. I've uploaded it, we're waiting.
+
+Vikram: That's blocking production keys, right?
+
+Rahul: Yes. Decision: we stay in Razorpay test mode until KYC is approved. Nobody touches
+production keys until then.
+
+Ananya: How is the integration itself going?
+
+Rahul: Mostly fine, but I'm stuck on a webhook signature verification issue. Payments succeed
+in test mode but the webhook rejects the signature. I'll resolve it by 14 March. High priority.
+
+Vikram: If the webhook is broken we might get duplicate bookings. I'll add retry logic for
+failed payments and idempotency keys. I'll have that done by 16 March, medium priority.
+
+Ananya: I'll update the payment failure UI to show a proper error message and a retry button.
+That should be ready by 15 March, medium priority.
+
+Arjun: On the college side, the approval form is filled but not submitted. I'll submit it to
+the Dean's office by 13 March. High priority. It's currently in progress.
+
+Rahul: Good. Another decision — for the pilot we will support UPI only. Card payments move to
+phase two. That reduces our compliance surface significantly.
+
+Vikram: Agreed. Also, the Wednesday 5pm standup clashes with my lab. Can we move it?
+
+Rahul: Decision: standups move to Thursday 5pm from this week onward.
+
+Ananya: What about refunds? We still haven't settled the refund policy, and Razorpay requires
+us to declare one.
+
+Rahul: Still unresolved. I'll raise it with the Dean's office. Also unresolved: who owns the
+production API keys, and whether we need GST invoices for the pilot.
+
+Vikram: The webhook issue is the biggest technical risk right now. If we don't fix it, the
+booking flow can't be trusted.
+
+Rahul: Noted as a blocker. Also, the college approval still hasn't come through, and exam week
+starts on the 14th so the team will be slower.
+
+Arjun: I'll follow up with the Dean's office in person on the 13th.

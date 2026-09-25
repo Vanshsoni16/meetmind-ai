@@ -1,0 +1,45 @@
+Project Nimbus – Requirements Brainstorm
+Date: 25 February 2025
+Attendees: Rahul Sharma, Ananya Iyer, Vikram Rao, Sneha Kulkarni
+
+Rahul: We're deciding whether to actually build Project Nimbus. Let's keep it focused.
+The pitch is a campus event booking app where students can reserve seats for college
+events and pay a small fee.
+
+Sneha: I looked at three existing apps students use. All of them have terrible UX.
+Two don't even let you filter by date. This is a real gap.
+
+Ananya: I can sketch the core screens this week. Let's say three: event list, event
+detail, and booking confirmation.
+
+Vikram: What about the backend? We have no infrastructure.
+
+Rahul: Decision — we'll use cloud-hosted services. No on-premise. That keeps it
+simple and cost-effective.
+
+Sneha: Do we need payment at all in the MVP? Could be free events only.
+
+Rahul: That's a good question. Let's leave the payment scope open for now —
+we'll decide after we talk to the Dean's office.
+
+Vikram: What's our target launch?
+
+Rahul: Rough goal — end of April. I'll come back with a formal timeline.
+
+Ananya: I'll prepare a small mock-up for the booking flow. Give me until 28 February.
+
+Sneha: Should we write a one-page project charter?
+
+Rahul: Yes. Sneha, can you draft it by 1 March? Medium priority.
+
+Vikram: One concern — if we choose the wrong tech stack now, we'll pay for it later.
+
+Rahul: Agreed. We'll lock the stack in the kickoff meeting.
+
+Sneha: Also, who owns the domain name and hosting account?
+
+Rahul: Unresolved for now. We'll sort it after the kickoff.
+
+Ananya: And what's our budget ceiling? That's also open.
+
+Rahul: Correct. Both are open items for the kickoff.
